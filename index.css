@@ -4,14 +4,24 @@
   justify-content: center;
   margin: 10px;
   position: fixed;
-  top: 0%;
-  left: 50%;
+  top: 7%;
+  left: 13%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .icon {
-    font-size: 2rem;
-    margin: 0.2rem;
+    font-size: 1.5rem;
+    margin: 0.6rem;
     color: white;
+}
+
+.icon > i {
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.icon > i:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg) scale(2);
 }
