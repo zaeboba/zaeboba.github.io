@@ -1,4 +1,5 @@
 .links {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,11 +18,12 @@
 }
 
 .icon > i {
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out, font-size 0.2s;
+  transition: transform 0.2s ease-in-out, font-size 0.2s;
 }
 
 .icon > i:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg) scale(2);
+  transform: rotate(360deg);
+  font-size: 4rem;
 }
