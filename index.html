@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+
+    <script>
+      var createjs = window;
+    </script>
+    <script type="text/javascript" src="libs.min.js"></script>
+    <script type="text/javascript" src="rf/util/RandomUtil.js"></script>
+    <script type="text/javascript" src="Config.js"></script>
+    <script type="text/javascript" src="shapes.js"></script>
+    <script type="text/javascript" src="Sequence.js"></script>
+    <script type="text/javascript" src="Piece.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">  </head>
+
+  <body onload="init('myCanvas', Piece, Config);">
+    <canvas
+      id="myCanvas"
+      style="position: absolute; z-index: -1; left: 0; top: 0"
+      resize="true"
+      width="100"
+      height="100"
+    ></canvas>
+    <div
+      id="output"
+      style="
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: -30px;
+        font-size: 10px;
+      "
+    ></div>
+    <div class="links">
+	  <a class="icon" href="https://discord.gg/zrsZGs3">
+		<i class="fab fa-discord fa-fw fa-lg"></i>
+      </a>
+      <a class="icon" href="https://t.me/mask_rf">
+		<i class="fab fa-steam fa-fw fa-lg"></i>
+	</a>
+    </div>
+  </body>
+</html>

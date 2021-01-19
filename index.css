@@ -1,0 +1,17 @@
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+    font-size: 2rem;
+    margin: 0.2rem;
+    color: white;
+}
